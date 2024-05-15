@@ -3,7 +3,7 @@ layout: single
 title:  "Install python3 and jupyter lab in Windows"
 categories: install
 tag: [python, jupyter, pip, pipenv]
-toc: true
+#toc: true
 ---
 
 ### Install Scoop
