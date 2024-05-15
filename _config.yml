@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "ko-KR"
 title                    : "Zoozoobar"
 title_separator          : "-"
-subtitle                 : "IT & Camping & Education"
+subtitle                 : # "IT & Camping & Education"
 name                     : "torajim"
 description              : "IT & Camping & Education"
 url                      : "https://torajim.github.io"
@@ -112,7 +112,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Stefano Jang"
+  name             : # "Stefano Jang"
   avatar           : "/assets/images/zoozoobar_circle.png"
   bio              : # "동물사랑 캠퍼 개발자 아저씨"
   location         : "South Korea"
@@ -136,6 +136,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/apple2bapple"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/torajim"
 
 # Site Footer
 footer:
