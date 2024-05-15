@@ -2,7 +2,7 @@
 layout: single
 title:  "블로그 첫 포스팅 테스트"
 categories: coding
-tag: python
+tag: [python, blog, jekyll]
 ---
 
 # 처음 블로그를 만들었습니다
