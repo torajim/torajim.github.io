@@ -41,7 +41,7 @@ toc: true
           url: "https://www.zoozoobar.net"
         - label: "Google Scholar"
           icon: "fa-brands fa-google-scholar"
-          url: "https://scholar.google.com/citations?    user=YMAzgnYAAAAJ&hl=ko"
+          url: "https://scholar.google.com/citations?user=YMAzgnYAAAAJ&hl=ko"
         - label: "GitHub"
           icon: "fab fa-fw fa-github"
           url: "https://github.com/torajim"
