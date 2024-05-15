@@ -25,6 +25,7 @@
     "uglify-js": "^3.17.4"
   },
   "scripts":{
-    "start": "bundle exec jekyll serve"
+    "start": "bundle exec jekyll serve",
+    "clean": "rmdir /S/Q _site"
   }
 }
