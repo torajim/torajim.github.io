@@ -15,10 +15,10 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR"
 title                    : "Zoozoobar"
 title_separator          : "-"
-subtitle                 : "동물사랑 개발자 아저씨"
+subtitle                 : "IT & Camping & Education"
 name                     : "torajim"
 description              : "IT & Camping & Education"
 url                      : "https://torajim.github.io"
@@ -113,8 +113,8 @@ analytics:
 # Site Author
 author:
   name             : "Stefano Jang"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "동물사랑 캠퍼 개발자 아저씨"
+  avatar           : "/assets/images/zoozoobar_circle.png"
+  bio              : # "동물사랑 캠퍼 개발자 아저씨"
   location         : "South Korea"
   email            : torajim@gmail.com
   links:
@@ -123,19 +123,19 @@ author:
       # url: "mailto:your.name@email.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://www.zoozoobar.net"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      # url: "https://facebook.com/toraim"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/torajim"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/apple2bapple"
 
 # Site Footer
 footer:
