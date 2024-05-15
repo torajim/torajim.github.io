@@ -116,11 +116,11 @@ author:
   avatar           : "/assets/images/zoozoobar_circle.png"
   bio              : # "동물사랑 캠퍼 개발자 아저씨"
   location         : # "South Korea"
-  email            : torajim@gmail.com
+  email            : # torajim@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:torajim@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.zoozoobar.net"
