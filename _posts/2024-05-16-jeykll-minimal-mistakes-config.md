@@ -11,8 +11,6 @@ toc: true
 * url: myurl (ex., https://torajim.github.io)
 * breadcrumbs: true
   * post에서 hierarchy 보여 주기 위함
-* words_per_minute: 100
-  * post 읽기 위한 소요 시간 계산 (default 200인데 너무 금방 읽을 수 있다고 나와서 약간 낮춤)
 * enable_copy_code_button: true
   * code block에서 C&C 할 수 있도록
 * atom_feed.hide: true
