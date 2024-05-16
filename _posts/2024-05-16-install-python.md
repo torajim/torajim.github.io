@@ -59,5 +59,11 @@ pipenv install pandas numpy matplotlib seaborn sklearn
 pipenv run jupyter lab
 ```
 
+### ETC. Set up Linux on Windows
+```bash
+launch powershell
+wsl --install
+```
+
 ### Reference
 [Ergin BULU - gist.github.com/ergin](https://gist.github.com/ergin)
