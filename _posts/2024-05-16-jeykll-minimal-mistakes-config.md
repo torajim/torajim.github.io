@@ -79,3 +79,18 @@ C:\Users\toraj\workspace\torajim.github.io>
     "clean": "rmdir /S/Q _site"
   }
 ```
+
+* Jekyll build시 tzinfo 에러 문제
+```powershell
+C:/scoop/apps/ruby/3.3.1-1/lib/ruby/3.3.0/bundled_gems.rb:74:in `require': cannot load such file -- tzinfo (LoadError)
+```
+* tzinfo, tzinfo-data가 설치되었는지 확인
+```powershell
+gem install tzinfo
+gem install tzinfo-data
+```
+* gemfile에 아래 두 줄을 추가한 후 jekyll build를 수행해 준다
+```
+gem 'tzinfo'
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+```
