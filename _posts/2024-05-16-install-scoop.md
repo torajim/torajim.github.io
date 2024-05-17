@@ -6,8 +6,6 @@ tag: [scoop, windows, powershell]
 toc: true
 ---
 
-# Windows 패키지 관리자 Scoop 설치 및 사용법 안내
-
 ## 소개
 
 Scoop은 Windows 환경에서 소프트웨어 패키지를 쉽게 설치하고 관리할 수 있게 해주는 명령줄 기반 패키지 관리자입니다. Git, Python, Node.js 등 다양한 개발 도구를 간편하게 설치할 수 있습니다. (개인적인 경험상 일부 관리자 권한이 필요한 프로그램의 설치는 매끄럽지 않을 수 있습니다. 다만, Python, Java처럼 버저닝이 필요한 SDK를 설치할 때는 아주 깔끔한 느낌입니다. )
