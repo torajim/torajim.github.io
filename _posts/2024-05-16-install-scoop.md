@@ -109,10 +109,10 @@ scoop update
 
 ## 참고자료
 
-[1] 네이버 블로그 - scoop 설치하기 (윈도우 명령어 설치 프로그램) - 네이버 블로그 (https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=chandong83&logNo=221101838350)
+[[1] scoop 설치하기 (윈도우 명령어 설치 프로그램) - 네이버 블로그](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=chandong83&logNo=221101838350)
 
-[2] velog - Scoop 사용법(윈도우에서 설치 및 업데이트를 쉽게 할 수 있다) (https://velog.io/@nahyunbak/Scoop-%EC%82%AC%EC%9A%A9%EB%B2%95%EC%9C%88%EB%8F%84%EC%9A%B0%EC%97%90%EC%84%9C-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EB%A5%BC-%EC%89%BD%EA%B2%8C-%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8B%A4)
+[[2] Scoop 사용법(윈도우에서 설치 및 업데이트를 쉽게 할 수 있다)](https://velog.io/@nahyunbak/Scoop-%EC%82%AC%EC%9A%A9%EB%B2%95%EC%9C%88%EB%8F%84%EC%9A%B0%EC%97%90%EC%84%9C-%EC%84%A4%EC%B9%98-%EB%B0%8F-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%EB%A5%BC-%EC%89%BD%EA%B2%8C-%ED%95%A0-%EC%88%98-%EC%9E%88%EB%8B%A4)
 
-[3] 이태원 블로그 - 이태원 블로그 (https://leeted.tistory.com/)
+[[3] Scoop 사용법 - 이태원 블로그](https://leeted.tistory.com/221)
 
-[4] velog - Scoop (https://velog.io/@jubby/Scoop)
+[[4] Scoop - dev_jubby.log](https://velog.io/@jubby/Scoop)
