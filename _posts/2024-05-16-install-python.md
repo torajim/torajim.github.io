@@ -13,7 +13,7 @@ iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
 ```
 - Note: if you get an error you might need to change the execution policy (i.e. enable Powershell) with Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 
-- [설치 방법 한글](/install/install-scoop/)
+- [설치 방법 한글]({% post_url 2024-05-16-install-scoop %})
 
 [More Detail](https://github.com/ScoopInstaller/Install#readme)
 
