@@ -55,7 +55,9 @@ def show_json(obj):
 from dotenv import load_dotenv
 load_dotenv()
 ```
+
     True
+
 ```python
 import os
 api_key = os.environ.get("OPEN_API_KEY")
