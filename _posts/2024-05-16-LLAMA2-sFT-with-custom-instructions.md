@@ -686,4 +686,5 @@ model.push_to_hub("custommodel_llama2")
 
 
 # Reference
-[HKCODE - https://www.youtube.com/@HKCODE](https://www.youtube.com/@HKCODE)
+- [HKCODE - https://www.youtube.com/@HKCODE](https://www.youtube.com/@HKCODE)
+- [소스 코드 확인 - Colab](https://colab.research.google.com/drive/1LwNNPjF24blsXdREFHRTOzN9ZYB1G_zx?usp=sharing)

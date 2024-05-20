@@ -450,3 +450,6 @@ print(f"\n답변: {result['text']}")
     
     21. 사람 중심의 휴먼시티 조성: 수원시는 사람 중심의 휴먼시티 조성을 위해 보행자 전용도로, 자전거 도로 등 친환경
     
+## Reference
+- [HKCODE - https://www.youtube.com/@HKCODE](https://www.youtube.com/@HKCODE)
+- [소스 코드 확인 - Colab](https://colab.research.google.com/drive/1osExD_nycnIBUolGesGynGRYziVlj7ji?usp=sharing)

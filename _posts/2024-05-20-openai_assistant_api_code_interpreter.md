@@ -7,7 +7,7 @@ toc: true
 ---
 
 ## Assistant + tools
-- **code_interpreter**
+- **[이번 내용] code_interpreter**
    - 토큰 길이에 상관 없이, 코드를 생성해서 답변할 수 있는 도구 입니다.
    - 예: 피보나치 수열을 만들어줘 -> 피보나치 수열을 생성하는 함수를 생성한 후 이것의 실행 결과로 답변을 만듦 (cf., Code Interpreter가 아니라면, text 기반의 sequence generation으로 답변을 함)
    - 함수를 생성하는 방식이기 때문에, input, output의 token length 제약을 벗어나서 활용을 할 수 있습니다.
@@ -315,3 +315,4 @@ first_20_fibonacci
 ## Reference
 - [Assistants API(Beta) - Open AI](https://platform.openai.com/docs/assistants/overview)
 - [EP02. #openai의 새로운 기능 #assistant API 3가지 도구 활용법 - 테디노트](https://www.youtube.com/watch?v=BMW1NJkL7Ks)
+- [소스 코드 확인 - Colab](https://colab.research.google.com/drive/1xz4e7eBVNS5cO83-lOe-gh_iUp5ZVAOx?usp=sharing)
