@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Open AI Assistants API로 GPT-4o 모델에 질문 답변 받기"
+title:  "[Assistants API - 1/4] Open AI Assistants API로 GPT-4o 모델에 질문 답변 받기"
 categories: openai
 tag: [openai, gpt-4o, assistant, python]
 toc: true
@@ -315,4 +315,5 @@ else:
 
 
 ## Reference
+- [Assistants API(Beta) - Open AI](https://platform.openai.com/docs/assistants/overview)
 - [TeddyNote - EP01. #openai의 새로운 기능 #assistant API 완벽히 이해해보기](https://www.youtube.com/watch?v=-Wne4a-8RlY)
