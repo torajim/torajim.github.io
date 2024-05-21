@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "[Assistants API - 2/4] Open AI Assistants API에서 code interpreter 사용"
+title:  "[Assistants API - 2/4] GPT-4o에서 code interpreter 사용"
 categories: openai
 tag: [openai, gpt-4o, assistant, python, code-interpreter]
 toc: true
