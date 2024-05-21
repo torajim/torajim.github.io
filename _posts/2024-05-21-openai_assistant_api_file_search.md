@@ -1,8 +1,8 @@
 ---
 layout: single
-title:  "[Assistants API - 3/4] GPT-4o에서 file search(vector store) 사용"
+title:  "[Assistants API - 3/4] GPT-4o에서 file search(vector store, RAG) 사용"
 categories: openai
-tag: [openai, gpt-4o, assistant, python, file-search]
+tag: [openai, gpt-4o, assistant, python, file-search, RAG]
 toc: true
 ---
 
