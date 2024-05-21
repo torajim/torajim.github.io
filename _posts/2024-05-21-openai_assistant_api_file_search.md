@@ -1,3 +1,11 @@
+---
+layout: single
+title:  "[Assistants API - 3/4] Open AI Assistants API에서 file search(vector store) 사용"
+categories: openai
+tag: [openai, gpt-4o, assistant, python, file-search]
+toc: true
+---
+
 ## Assistant + tools
 - **code_interpreter**
    - 토큰 길이에 상관 없이, 코드를 생성해서 답변할 수 있는 도구 입니다.

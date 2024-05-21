@@ -317,4 +317,4 @@ else:
 ## Reference
 - [Assistants API(Beta) - Open AI](https://platform.openai.com/docs/assistants/overview)
 - [TeddyNote - EP01. #openai의 새로운 기능 #assistant API 완벽히 이해해보기](https://www.youtube.com/watch?v=-Wne4a-8RlY)
-- [Colab Link](https://colab.research.google.com/drive/1rVx_2iESXD2FJf_4aPEpFJbUuDbtsp6z?usp=sharing)
+- [소스 코드 확인 - Colab](https://colab.research.google.com/drive/1rVx_2iESXD2FJf_4aPEpFJbUuDbtsp6z?usp=sharing)
