@@ -307,3 +307,4 @@ defaults:
       share: true
       related: true
       show_date: true
+      mathjax: true
