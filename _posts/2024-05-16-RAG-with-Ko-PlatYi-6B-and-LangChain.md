@@ -1,13 +1,10 @@
 ---
 layout: single
-title:  "RAG를 활용한 LangChain 실습"
+title:  "RAG를 활용한 LangChain 실습(Ko-PlatYi-6B 사용)"
 categories: llm
-tag: [RAG, python, langchain, huggingface]
+tag: [RAG, python, langchain, huggingface, ko-platYi-6B]
 toc: true
 ---
-
-# RAG with Ko-PlatYi-6B and LangChain
-
 
 ## 1단계 - LLM 양자화 필요 패키지 설치
 - bitsandbytes: Bitsandbytes는 CUDA 사용자 정의 함수, 특히 8비트 최적화 프로그램, 행렬 곱셈(LLM.int8()) 및 양자화 함수에 대한 경량 래퍼 [Huggingface](https://huggingface.co/docs/bitsandbytes/main/en/index)

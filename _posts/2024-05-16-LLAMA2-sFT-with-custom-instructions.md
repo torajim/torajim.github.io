@@ -6,7 +6,7 @@ tag: [sFT, llama2, huggingface]
 toc: true
 ---
 
-# Instruction 파일 위치한 Google Drive 마운트
+## Instruction 파일 위치한 Google Drive 마운트
 
 ```python
 from google.colab import drive
@@ -83,7 +83,7 @@ jsonFileName = "indata_kor.jsonl"
     Successfully installed datasets-2.19.1 dill-0.3.8 huggingface-hub-0.23.0 multiprocess-0.70.16 xxhash-3.4.1
     
 
-# HuggingFace login (환경변수 HF_TOKEN 설정시 생략 가능)
+## HuggingFace login (환경변수 HF_TOKEN 설정시 생략 가능)
 
 
 ```python
@@ -95,7 +95,7 @@ huggingface_hub.login()
     VBox(children=(HTML(value='<center> <img\nsrc=https://huggingface.co/front/assets/huggingface_logo-noborder.sv…
 
 
-# CSV를 일단 jsonl 형태로 변환
+## CSV를 일단 jsonl 형태로 변환
 
 * inputs과 response에는 fine tuning을 위한 질문과 답변을 넣는다
 * 많은 경우 유사한 뜻을 다양하게 추가할 경우 좋은 성능을 내는 것으로 알려져 있다
@@ -141,7 +141,7 @@ csv_to_json(csv_file_path, json_file_path)
     4      스마트금융과는 1년에 몇 명을 선발하나요?              1년에 한반을 운영하고 있고 최대 27명을 선발합니다.
     
 
-# Jsonl을 HuggingFace instruction 형태로 변환
+## Jsonl을 HuggingFace instruction 형태로 변환
 
 * 사실 csv를 바로 indataset 형태로 바꿔도 된다
 * 여기서는 jsonl형태로 중간 변환을 하고 있다
@@ -171,7 +171,7 @@ print(indataset)
     })
     
 
-# Dataset을 HuggingFace에 업로드
+## Dataset을 HuggingFace에 업로드
 - Parquet 형태로 업로드 된다
 
 
@@ -332,7 +332,7 @@ from trl import SFTTrainer
     0it [00:00, ?it/s]
 
 
-# Dataset Load from HuggingFace
+## Dataset Load from HuggingFace
 
 
 ```python
@@ -367,7 +367,7 @@ print(dataset[25])
     {'text': '<s>[INST]한국폴리텍대학 스마트금융과를 수료하면 어떤 포트폴리오가 나오나요? [/INST] 스마트금융과는 찍어내기식의 포트폴리오가 아니라 매년 업체에서 요구하는 기술 및 주제에 대해서 포트폴리오가 나옵니다. 2024년2월에는 AWS 사용량 예측을 진행하기도 했습니다. </s>'}
     
 
-# 4Bit Quantization
+## 4Bit Quantization
 
 
 ```python
@@ -381,7 +381,7 @@ quant_config = BitsAndBytesConfig(
 )
 ```
 
-# Loading Llama2 model
+## Loading Llama2 model
 
 
 ```python
@@ -412,7 +412,7 @@ model.config.pretraining_tp = 1
       warnings.warn(
     
 
-# Loading Tokenizer
+## Loading Tokenizer
 Next, we will load the tokenizer from Hugginface and set padding_side to “right” to fix the issue with fp16.
 
 
@@ -442,7 +442,7 @@ tokenizer.padding_side = "right"
     special_tokens_map.json:   0%|          | 0.00/435 [00:00<?, ?B/s]
 
 
-# PEFT parameters
+## PEFT parameters
 
 * 기존 Foundation Model의 대부분 parameter를 freezing 한 채, 일부 parameter만을 update 하는 방식으로 정확도를 유지하면서 학습속도를 빠르게 해 줄 수 있음
 
@@ -457,7 +457,7 @@ peft_params = LoraConfig(
 )
 ```
 
-# Training Parameters
+## Training Parameters
 Below is a list of hyperparameters that can be used to optimize the training process:
 
 - output_dir: The output directory is where the model predictions and checkpoints will be stored.
@@ -501,7 +501,7 @@ training_params = TrainingArguments(
 )
 ```
 
-# Model fine-tuning
+## Model fine-tuning
 
 
 ```python
@@ -609,7 +609,7 @@ trainer.tokenizer.save_pretrained(new_model)
 
 
 
-# Evaluation
+## Evaluation
 
 
 ```python
@@ -685,6 +685,6 @@ model.push_to_hub("custommodel_llama2")
     CommitInfo(commit_url='https://huggingface.co/torajim/custommodel_llama2/commit/556f13b55839801dfe5d78ef98c83b02a2934d76', commit_message='Upload LlamaForCausalLM', commit_description='', oid='556f13b55839801dfe5d78ef98c83b02a2934d76', pr_url=None, pr_revision=None, pr_num=None)
 
 
-# Reference
+## Reference
 - [HKCODE - https://www.youtube.com/@HKCODE](https://www.youtube.com/@HKCODE)
 - [소스 코드 확인 - Colab](https://colab.research.google.com/drive/1LwNNPjF24blsXdREFHRTOzN9ZYB1G_zx?usp=sharing)
