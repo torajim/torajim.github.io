@@ -689,3 +689,4 @@ while n < max_iters:  # 최대 반복 횟수까지 반복합니다.
 ## *Reference*
 - [토론 AI 에이전트 - 의대 입학정원 증원에 대한 찬반토론을 AI끼리 한다면? - TeddyNode](https://youtu.be/NaU89YXQAoI)
 - [Multi-agent authoritarian speaker selection - Langchain_cookbook_github](https://github.com/langchain-ai/langchain/blob/master/cookbook/multiagent_authoritarian.ipynb)
+- [소스코드참조-colab](https://colab.research.google.com/drive/14xvcM-_wSY_bdKoPGwYB74ztEuh81cY_?usp=sharing)
